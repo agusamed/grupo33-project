@@ -37,3 +37,10 @@ http://localhost:5173/
 
 En caso de error:
 Verificar tener node.js actualizado
+
+
+Sobre el recupero de contraseña
+
+Esta funcionalidad envia un código por mail para el recupero de contraseña. 
+Como los mails no son reales, pueden verificar el codigo del funcionamiento en la base de datos: Users
+El campo "otp" se actualiza con un nuevo código cada vez que se intenta recuperar la contraseña, que se utiliza como identificador para el cambio
