@@ -1,0 +1,61 @@
+.contract-container {
+    display: flex;
+    flex-direction: column;
+    width: 950px;
+    margin: 3rem auto;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 5px 8px rgb(149, 149, 149);
+}
+
+.text {
+    margin: 1rem 0;
+}
+
+.text p {
+    margin: .5rem 0;
+}
+
+.styled-table {
+    /*TABLA*/
+    position: relative;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    font-size: 14px;
+    min-width: 450px;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px rgb(175, 175, 175);
+    background-color: #fff;
+    border-width: 0 0 3px;
+    padding: 20px;
+}
+
+.styled-table hr {
+    border: 1px solid white
+}
+
+.styled-table td {
+    /*ENCABEZADO*/
+    padding: 20px;
+    background-color: rgba(0, 100, 83, 1);
+    color: #ffffff;
+    font-weight: 900;
+}
+
+.styled-table .tbody hr {
+    border: 1px solid black
+}
+
+.styled-table .tbody td {
+    /*CELDAS*/
+    padding: 20px;
+    background-color: #dbdbdb;
+    color: black;
+    font-weight: lighter;
+}
+
+.styled-table .tbody tr {
+    /*CELDAS*/
+    padding: 20px;
+}

@@ -1,0 +1,79 @@
+.class-container {
+    margin: 0 auto;
+}
+
+.class-container .article {
+    display: flex;
+    position: relative;
+    margin: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    font-size: 14px;
+    padding: 20px;
+    border-width: 0 0 3px;
+    max-width: 735px;
+    color: #8e959c;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px rgb(175, 175, 175);
+}
+
+.article figure {
+    float: left;
+    position: relative;
+    margin: 3px 20px 0 0;
+    width: 136px;
+}
+
+.article figure>img {
+    border-radius: 100px;
+    display: block;
+    width: 130px;
+    height: 130px;
+    opacity: .9;
+    border: 1px solid #eee;
+}
+
+.text {
+    margin: 1rem 0;
+}
+
+.text p {
+    margin: .5rem 0;
+    width: 400px;
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.price .reserve {
+    background-color: #3aac8b;
+    border-radius: 18.5px;
+    height: 30px;
+    width: 135px;
+    font-size: 13px;
+    border: none;
+    font-weight: bold;
+    margin-top: 16px;
+    margin-left: 5px;
+    text-align: center;
+    line-height: 28px;
+    padding-top: 2px;
+}
+
+.price .reserve button {
+    background-color: #3aac8b;
+    font-size: 13px;
+    border: none;
+    font-weight: bold;
+    color: #eee;
+}
+
+.price .reserve a {
+    background-color: #3aac8b;
+    color: #eee;
+}

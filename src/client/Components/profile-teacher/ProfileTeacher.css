@@ -1,0 +1,10 @@
+.profile-flex .upload {
+  width: 191px;
+  height: 50px;
+}
+
+.profile-flex figure>img {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+}

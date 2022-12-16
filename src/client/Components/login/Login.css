@@ -1,0 +1,10 @@
+.form p {
+  text-align: center;
+  margin: 1rem;
+}
+.form p>a {
+  color: black;
+}
+.form p>a:hover {
+  text-decoration: underline;
+}
