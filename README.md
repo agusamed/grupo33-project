@@ -5,7 +5,7 @@
 Base de datos:
 Decidimos usar una base NO SQL (MongoDB), la cual esta desplegada en un entorno sandbox de mongo cloud, si desea conectarse y explorar o modificar la data, puede descargar un cliente como mongo compass y conectrase con la siguiente URI:
 
-mongodb+srv://user:abc@cluster0.qkebat8.mongodb.net/test
+(buscar en documento enviado)
 
 se han cargado algunas colecciones de pruebas.
 
